@@ -60,14 +60,14 @@ simple review
   - semantic is define by it behavoir
     - to the point -> use a simple interpreter for the programming language thar highlights the behavior of the lanuguage. -> operational semantics
     **example for operational semantic:
-    ![one](one.PNG)
+    ![one](one.png)
   - **abstraction syntax trees** - use to define operational semantics  -> abstract interpreter for the language
   - you may ask use parse tree but that is not very convenient and it has too many terminal symbols -> Abstract syntax tree(AST)
   - ASTs and parenteses
     - () are not needed because it will naturally represent both associativity and precedence relations
     - **example:**
     
-    ![abs](abs.PNG)
+    ![abs](abs.png)
 ### Language Two
 - extension of language one with varibles, an ML style Let expression for defining.
 - Additional abstract syntax nodes for language TWO:
@@ -76,7 +76,7 @@ simple review
 context of expression E2.
 
 **Example of this** : let val y = 4 in y*y end ->  let(y,const(4),times(var(y),var(y)))
-![two](two.PNG)
+![two](two.png)
 
 ## Reference 
 - Webber, Adam. Modern Programming Languages: A Practical Introduction. Franklin, Beedle &amp; Associates, 2002. 
